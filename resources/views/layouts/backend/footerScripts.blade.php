@@ -8,7 +8,7 @@
 <script src="{{ asset('Backend/js/plugins-jquery.js') }}"></script>
 
 <!-- plugin_path -->
-<script>let plugin_path = '{{ asset('Backend/js/') }}';</script>
+<script>var plugin_path = '{{ asset('Backend/js/') }}';</script>
 
 <!-- chart -->
 <script src="{{ asset('Backend/js/chart-init.js') }}"></script>
@@ -38,4 +38,11 @@
 <script src="{{ asset('Backend/js/lobilist.js') }}"></script>
 
 <!-- custom -->
+<!-- custom -->
+<script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+<script>
+    $(document).ready( function () {
+        $('#datatable').DataTable();
+    } );
+</script>
 <script src="{{ asset('Backend/js/custom.js') }}"></script>

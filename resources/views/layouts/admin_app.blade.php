@@ -18,9 +18,16 @@
 
                 @include('layouts.backend.sidebar')
 
-                @yield('content')
+                <div class="content-wrapper">
+
+                    @yield('content')
+
+                    @include('layouts.backend.footer')
+
+                </div>
 
             </div>
+
         </div>
 
         @include('layouts.backend.footerScripts')

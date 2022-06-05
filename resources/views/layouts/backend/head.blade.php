@@ -14,4 +14,7 @@
       rel="stylesheet">
 
 <!-- css -->
+<!-- css -->
 <link href="{{ asset('Backend/css/style.css') }}" rel="stylesheet" type="text/css"/>
+<link href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css" rel="stylesheet">
+<link href="{{ asset('Backend/css/admin.css') }}" rel="stylesheet" type="text/css"/>
