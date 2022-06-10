@@ -4,7 +4,8 @@
 <meta content="Webmin - Bootstrap 4 & Angular 5 Admin Dashboard Template" name="description"/>
 <meta content="potenzaglobalsolutions.com" name="author"/>
 <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport"/>
-<title>Laravel 9</title>
+
+<title>Laravel 9 | @yield('title')</title>
 
 <!-- Favicon -->
 <link href="{{ asset('Backend/images/favicon.ico') }}" rel="shortcut icon"/>

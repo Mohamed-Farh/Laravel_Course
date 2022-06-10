@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Backend\BackendController;
 use App\Http\Controllers\Backend\CategoryController;
+use App\Http\Controllers\Backend\ProductController;
 
 /*
 |--------------------------------------------------------------------------
@@ -37,4 +38,6 @@ Route::group(['prefix' => 'admin', 'as'=>'admin.' ], function(){
     Route::get('/index', [BackendController::class, 'index'])->name('dashboard.index');
 
     Route::resource('categories', CategoryController::class);
+
+    Route::resource('products', ProductController::class);
 });

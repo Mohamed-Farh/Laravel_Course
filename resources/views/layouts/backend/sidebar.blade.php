@@ -25,10 +25,10 @@
                     <span class="right-nav-text">{{__('الرئيسية') }}</span> </a>
             </li>
 
-            <!-- menu item Dashboard-->
+            <!-- Start categories-->
             <li>
                 <a data-target="#categories" data-toggle="collapse" href="javascript:void(0);">
-                    <div class="pull-left"><i class="ti-home"></i><span
+                    <div class="pull-left"><i class="fa fa-first-order"></i><span
                             class="right-nav-text">{{__('الأقسام')}}</span></div>
                     <div class="pull-right"><i class="ti-plus"></i></div>
                     <div class="clearfix"></div>
@@ -37,8 +37,23 @@
                     <li><a href="{{ route('admin.categories.index') }}">{{__('الأقسام')}}</a></li>
                 </ul>
             </li>
-            <!-- menu title -->
+            <!-- End categories -->
 
+            <!-- Start categories-->
+            <li>
+                <a data-target="#products" data-toggle="collapse" href="javascript:void(0);">
+                    <div class="pull-left">
+                        <i class="fa fa-shopping-basket"></i>
+                        <span
+                            class="right-nav-text">{{__('المنتجات')}}</span></div>
+                    <div class="pull-right"><i class="ti-plus"></i></div>
+                    <div class="clearfix"></div>
+                </a>
+                <ul class="collapse" data-parent="#sidebarnav" id="products">
+                    <li><a href="{{ route('admin.products.index') }}">{{__('المنتجات')}}</a></li>
+                </ul>
+            </li>
+            <!-- End categories -->
 
 
             <li class="mt-10 mb-10 text-muted pl-4 font-medium menu-title">Components</li>
