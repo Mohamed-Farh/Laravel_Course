@@ -70,7 +70,7 @@
                                     </tr>
 
 
-                                    <!-- add_modal_social -->
+                                    <!-- Edit_modal_social -->
                                     <div class="modal fade" id="edit{{ $category->id }}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
                                          aria-hidden="true">
                                         <div class="modal-dialog" role="document">
